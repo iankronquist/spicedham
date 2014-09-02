@@ -13,8 +13,10 @@ class DigitDestroyer(BasePlugin):
         Get values from the config.
         """
         config = load_config()
-        self.filter_match = config['digitdestroyer']['filter_match']
-        self.filter_miss = config['digitdestroyer']['filter_miss']
+        #self.filter_match = config['digitdestroyer']['filter_match']
+        #self.filter_miss = config['digitdestroyer']['filter_miss']
+        self.filter_match = 1
+        self.filter_miss = None
 
     def train(*args):
         """

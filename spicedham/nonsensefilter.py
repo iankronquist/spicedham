@@ -16,8 +16,10 @@ class NonsenseFilter(BasePlugin):
         """
         config = load_config()
         self.backend = load_backend()
-        self.filter_match = config['nonsensefilter']['filter_match']
-        self.filter_miss = config['nonsensefilter']['filter_miss']
+        #self.filter_match = config['nonsensefilter']['filter_match']
+        #self.filter_miss = config['nonsensefilter']['filter_miss']
+        self.filter_match = 1
+        self.filter_miss = 0
     
     def train(self, response, value):
         """
