@@ -1,4 +1,6 @@
 import spicedham.bayes
 import spicedham.digitdestroyer
 import spicedham.nonsensefilter
-from spicedham.sqlalchemywrapper import SqlAlchemyWrapper
+#from spicedham.sqlalchemywrapper import SqlAlchemyWrapper
+from django_spicedham.djangoormwrapper import DjangoOrmWrapper
+from django_spicedham.djangoconfig import SpicyDjangoConfig
